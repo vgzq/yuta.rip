@@ -2,7 +2,7 @@ window.PROFILE_DATA = {
   "version": 2,
   "profile": {
     "username": "me",
-    "display_name": "yuta",
+    "display_name": "dead",
     "profile_title": "",
     "bio": "i miss you",
     "avatar_url": "assets/uploads/pfp.png",
