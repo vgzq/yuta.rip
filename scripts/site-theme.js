@@ -44,6 +44,9 @@
         var others = sel.filter(function (x) { return x !== "#nameEl" && x !== "#profileTitleEl"; });
         if (others.length) css.push(others.join(",") + "{animation:tgShift 4s linear infinite!important}");
         css.push("@keyframes tgShift{from{background-position:0% 50%}to{background-position:200% 50%}}");
+        // phones/narrow screens: the base page switches the name animation off there, so run ours
+        var baseSel = sel.filter(function (x) { return x === "#nameEl" || x === "#profileTitleEl"; });
+        if (baseSel.length) css.push("@media (max-width:900px),(pointer:coarse){" + baseSel.join(",") + "{animation:tgShift 4s linear infinite!important}}");
       }
     }
   }

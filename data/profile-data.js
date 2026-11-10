@@ -16,7 +16,7 @@ window.PROFILE_DATA = {
     "card_tilt": true,
     "links_enabled": true,
     "browser_title": "ㅤ",
-    "favicon_url": "https://cdn.discordapp.com/emojis/1397543144056164433.webp?size=32",
+    "favicon_url": "https://cdn.discordapp.com/emojis/1531044829419671743.webp?size=32",
     "embed_title": "yuta",
     "embed_description": "yuta.rip",
     "gallery_image_1_url": "assets/uploads/gal1.png",
@@ -88,20 +88,21 @@ window.PROFILE_DATA = {
     "color": "#8892a3"
   },
   "protection": {
-    "enabled": false,
+    "enabled": true,
     "devtools": true,
     "sensitivity": "normal",
     "onDetect": "blank",
     "redirectUrl": "",
     "noContextMenu": true,
     "noSelect": true,
-    "noCopy": false,
+    "noCopy": true,
     "desktopOnly": true,
+    "debuggerTrap": true,
     "noFraming": true,
     "domainLock": false,
     "domains": [],
     "lockUrl": "",
-    "bypassMd5": "2e5e7c246a46fa150af4f180ffdbc0c5"
+    "bypassMd5": ""
   },
   "links": [
     {
